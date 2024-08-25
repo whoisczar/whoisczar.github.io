@@ -57,7 +57,7 @@
     border: transparent solid 1px;
     padding-inline: 20px;
     background-color: #5f0092;
-    box-shadow: 0 0 10px #5f0092;
+    box-shadow: 0 0 20px #5f0092;
     cursor: pointer;
   }
   
@@ -117,6 +117,12 @@
     height: 250px;
     width: auto;
     border-radius: 50px;
+    transition: all 0.3s;
+  }
+
+  #sobreMimSection img:hover{
+    box-shadow: 0 0 20px #5f0092;
+    transform: scale(1.05);
   }
   
   /* Experiências and Portfolio section styles */
@@ -207,5 +213,11 @@
       height: 50px;
       border-radius: 0px;
     }
+
+    #sobreMimSection img:hover{
+      box-shadow: 0 0 20px #5f0092;
+      transform: scale(1);
+    }
+
   }
   
